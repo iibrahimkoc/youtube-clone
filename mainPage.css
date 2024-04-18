@@ -1,0 +1,223 @@
+
+
+.main {
+    position: relative;
+    display: flex;
+}
+
+menu {
+    position: fixed;
+    top: 5.6rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22.8rem;
+    height: calc(100vh - 5.6rem);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+menu::-webkit-scrollbar {
+    width: 0.6rem;
+    border: 0;
+}
+
+menu::-webkit-scrollbar-thumb {
+    background-color: #909090;
+    border: 0;
+}
+
+menu::-webkit-scrollbar-track {
+    background-color: #fff;
+    border: 0;
+}
+
+
+.menuContentButtonBox {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.2rem;
+}
+
+.menuContentButtonBox h3 {
+    padding: 0 1.2rem;
+    font-size: 1.6rem;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-weight: 500;
+    overflow: hidden;
+    line-height: 2.2rem;
+
+}
+
+.menuLoginBox {
+    height: 14rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.6rem 3.2rem;
+
+}
+
+.menuLoginBox>p {
+    font-size: 1.4rem;
+    font-weight: 400;
+
+}
+
+.menuLoginBox .profile {
+    margin: 0;
+    margin-top: 1.2rem !important;
+}
+
+.menuContentButton {
+    display: flex;
+    align-items: center;
+    width: 20.4rem;
+    height: 4rem;
+    padding: 0 1.2rem;
+
+    border-radius: 1rem;
+
+}
+
+.menuContentButton:hover {
+    background-color: #f2f2f2;
+}
+
+.menuContentButton>div {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 2.4rem;
+}
+
+.menuContentButton>p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 400;
+    /* seçili ise 500 değilse 500 olacak*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* fazlalık için 3. nokta bırakıyor*/
+    white-space: nowrap;
+}
+
+
+
+.video-main {
+    position: absolute;
+    right: 0;
+    top: 5.6rem;
+    width: calc(100% - 22.8rem);
+    height: 100%;
+
+}
+
+.video-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.6rem;
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    width: 29.4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.videoMiniPhoto {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.videoMiniPhoto img {
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
+.viewCount {
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.3rem;
+    background-color: #2d2318;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+}
+
+.viewCount p {
+    letter-spacing: 0.05rem;
+}
+
+.video-content {
+    width: auto;
+    display: flex;
+    padding: 0 1%;
+}
+
+.chanel-photo {
+    width: 3.6rem;
+    height: 3.6rem;
+    margin-right: 1rem;
+    z-index: 3;
+    display: flex;
+}
+
+.chanel-photo img {
+    width: 100%;
+    border-radius: 50%;
+}
+.video-content > a{
+    width: calc(100% - 4.6rem);
+}
+.video-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-info h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    white-space-collapse:collapse;
+    text-wrap: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 4.4rem;
+    line-height: 2.2rem;
+    margin-bottom: 0.6rem;
+    margin-top: 0.2rem;
+    color: black;
+}
+
+.chanel-name p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    overflow: hidden;
+    max-height: 2.2rem;
+    line-height: 2.2rem;
+    color: #606060;
+}
+
+.videos-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.videos-info>* {
+    font-size: 1.4rem;
+    font-weight: 400;
+    overflow: hidden;
+    max-height: 2.2rem;
+    line-height: 2.2rem;
+    color: #606060;
+}
+
+.videos-info span {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}

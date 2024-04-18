@@ -1,0 +1,163 @@
+header {
+    background-color: white;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem 0 2rem;
+}
+
+.logoBox {
+    display: flex;
+}
+
+.menuButton {
+    width: 3.8rem;
+    height: 3.8rem;
+    padding: 0.7rem;
+    margin-right: 2rem;
+    cursor: pointer;
+
+
+}
+
+.menuButton:hover {
+    border-radius: 50%;
+    background-color: #e1dede;
+}
+
+.logo {
+    width: 9rem;
+    cursor: pointer;
+}
+
+.searchBox {
+    display: flex;
+}
+
+.searchBox form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchBoxActive {
+    position: absolute;
+    display: none;
+    height: 2rem;
+    left: 1.25rem;
+}
+
+.searchBox-box {
+    display: flex;
+    height: 3.84rem;
+}
+
+.searchBox input {
+    width: 20rem;
+    height: 3.84rem;
+    border-radius: 3rem 0 0 3rem;
+    border: 1px solid #cccccc;
+    box-shadow: inset 0 0 1px #cccccc;
+    outline: none;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    margin-left: 3.2rem;
+}
+
+.searchBox input::placeholder {
+    color: #888888;
+
+}
+
+.searchBox input:active,
+.searchBox input:focus {
+    width: 23.2rem;
+    padding-left: 4rem;
+    border-color: #1c62b9;
+    box-shadow: inset 0 0 5px #cccccc;
+    margin-left: 0;
+}
+
+
+.searchButton {
+    width: 5.4rem;
+    background-color: #f8f8f8;
+    padding: 0 1.5rem;
+    border-radius: 0 3rem 3rem 0;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-left: 0;
+}
+
+.searchButton:hover {
+    background-color: #e1dede;
+}
+
+.searchBox-voice {
+    width: 3.84rem;
+    height: 3.84rem;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchBox-voice:hover {
+    background-color: #e1dede;
+}
+
+.searchBox-voice button {
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profileBox {
+    display: flex;
+    align-items: center;
+}
+
+.settings {
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.settings:active {
+    background-color: #e1dede;
+}
+
+.profile {
+    margin-left: 1rem;
+    width: 12rem;
+    height: 3.94rem;
+    padding: 0.75rem 1.2rem 0.75rem 0.8rem;
+    color: #065fd4;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    justify-content: space-between;
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+.profile:hover {
+    background-color: #def1ff;
+}
+
+.profile p {
+    font-size: 1.5rem;
+}
